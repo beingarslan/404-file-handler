@@ -1,13 +1,5 @@
 <?php
 class HttpCodeHandler {
-    public static $code;
-    public static $message;
-
-    // constructor
-    public function __construct($code, $message) {
-        $this->code = 404;
-        $this->message = "Not Found";
-    }
     public static function getCode($url) { 
         $handle = curl_init($url);
         curl_setopt($handle,  CURLOPT_RETURNTRANSFER, TRUE);
