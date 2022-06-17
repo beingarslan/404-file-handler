@@ -33,7 +33,7 @@ class HttpCodeHandler {
     }
 }
 
-$url = "http://menu-app.test/get-slider1";
+$url = "http://menu-app.test/lkdsbj";
 HttpCodeHandler::check($url);
 
 
