@@ -36,7 +36,7 @@ class HttpCodeHandler {
             $dir = 'logs';
             self::setLog($mesage, $dir);
         }else{
-            return false;
+            return $httpCode;
         }
     }
 }
